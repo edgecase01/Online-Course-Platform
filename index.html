@@ -1,26 +1,76 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EduVerse</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div class="box">
-    <div class="topnav">
-      <ul>
-        <li id="title"><a href="#">EduVerse</li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#login">Log In</a></li>
-      </ul>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <h1 class="logo">EduVerse</h1>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="login.html">Log In</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="intro-section">
+    <div class="intro-text">
+      <h2>Welcome to EduVerse</h2>
+      <p>EduVerse is an innovative platform designed to offer high-quality online courses in various subjects. Whether you're looking to advance your career or learn a new skill, EduVerse has something for everyone.</p>
     </div>
-  </div>
+    <div class="intro-image">
+      <img src="th-2665487046" alt="Platform Interface">
+    </div>
+  </section>
+
+  <section class="courses-section">
+    <h2>Popular Courses</h2>
+    <div class="course-cards">
+      <div class="card">
+        <img src="course1.png" alt="Course 1">
+        <h3>Machine Learning</h3>
+      </div>
+      <div class="card">
+        <img src="course2.png" alt="Course 2">
+        <h3>Excel For Begineers</h3>
+      </div>
+      <div class="card">
+        <img src="course3.png" alt="Course 3">
+        <h3>Learn Python From Scratch</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews-section">
+    <h2>What Our Students Say</h2>
+    <div class="review-cards">
+      <div class="card">
+        <p>"EduVerse has been an incredible resource for me. The courses are easy to follow and very informative!"</p>
+        <h4>Praveen Yadav</h4>
+      </div>
+      <div class="card">
+        <p>"I love the flexibility that EduVerse provides. I can learn at my own pace and still get quality education."</p>
+        <h4>Manav Parmar</h4>
+      </div>
+      <div class="card">
+        <p>"The instructors are highly knowledgeable, and the platform is user-friendly. Highly recommended!"</p>
+        <h4>Pratham Varma</h4>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 EduVerse. All rights reserved.</p>
+  </footer>
 </body>
+</html>
 
